@@ -48,3 +48,14 @@ Ejecute los siguientes pasos para ejecutar el proyecto en un entorno local:
 13. Finalmente ejecute el servidor
 
         python manage.py runserver
+
+## Pruebas
+1. Para las pruebas debe estar dentro de la carpeta del proyecto, activar su entorno virtual
+   
+           python -m venv venv
+           source venv/bin/activate (En linux y mac)
+           venv\Scripts\activate (En windows)
+   
+3. Ejecutar el comando:
+
+            pytest api/tests/views/test_views.py
