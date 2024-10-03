@@ -24,7 +24,7 @@ Ejecute los siguientes pasos para ejecutar el proyecto en un entorno local:
    
         cp .env.example .env (Debe rellenar con sus credenciales correspondientes)
 
-5. Para rellenar las credenciales de variables de entorno, necesita tener su channel-id de Slack, su Webhook de Slack y ruta publica que será usada para los eventos e interacciones del bot en slack (en este caso yo utilice ngrok), a continuación un ejemplo de cómo debería ser la variable de entorno:
+5. Para rellenar las credenciales de variables de entorno, necesita tener su channel-id de Slack, su Webhook de Slack y ruta publica que será usada para los eventos e interacciones del bot en slack (en este caso yo utilice ngrok), a continuación, un ejemplo de cómo debería estar el archivo .env:
    
          SLACK_WEBHOOK =https://my-slack-webhook.com/services/ABCD/ABCD
          CHANNEL_NAME ="test-all-meal"
