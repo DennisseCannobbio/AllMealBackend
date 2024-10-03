@@ -6,6 +6,8 @@ Ejecute los siguientes pasos para ejecutar el proyecto en un entorno local:
 
 ## Instalación
 
+1. Debe tener instalado python en su equipo local. 
+
 1. Clonar el repositorio en su carpeta:
    
          git clone https://github.com/DennisseCannobbio/AllMealBackend.git
